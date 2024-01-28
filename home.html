@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <style>
+    header{
+      background-position: center;
+      min-height: 700px;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- navbar -->
+  <header class="#ff7043 deep-orange lighten-1">
+      <nav class="nav-wrapper transparent">
+        <div class="container">
+          <a href="#" class="brand-logo">Maryjane OT</a>
+          <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#" class="tooltipped btn-floating btn-small grey darken-3" data-position="bottom" data-tooltip="Instagram"> 
+              <i class="fab fa-instagram"></i>
+            </a></li>
+            <li><a href="#" class="tooltipped btn-floating btn-small grey darken-3" data-position="bottom" data-tooltip="Facebook">
+              <i class="fab fa-facebook"></i>
+            </a></li>
+            <li><a href="#" class="tooltipped btn-floating btn-small  grey darken-3" data-position="bottom" data-tooltip="linkedin">
+              <i class="fab fa-linkedin"></i>
+            </a></li>
+          </ul>
+          
+          <ul class="sidenav grey lighten-2" id="mobile-menu">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    <div class="container" id="home">
+      <div class="row">
+        <div class="hide-on-med-and-down col s12 m12 l6 white-text" style="margin-top: 150px;">
+          <h3 class="white-text text-darken-4">I'm Maryjane OT</h3>
+          <p style="font-size: 25px;">A computer scientist aspariant</p>
+          <a href="contact.html" class="btn grey darken-3 " style="border-radius: 50px">Hire Me</a> 
+          <a href="service.html" class="btn grey darken-3 " style="border-radius: 50px">My Works</a>
+        </div>
+        <div class="hide-on-large-only col s12 m12 l6 white-text" style="margin-top: 50px;">
+          <h2 class="white-text text-darken-4 center-align" style="font-size: 23px; font-weight: bold;">I'm Maryjane OT</h2>
+          <p style="font-size: 15px;" class="center-align">A computer scientist aspariant</p>
+          <center>
+            <a href="contact.html" class="btn grey darken-3 " style="border-radius: 50px">Hire Me</a> 
+          <a href="service.html" class="btn grey darken-3 " style="border-radius: 50px">My Works</a>
+          </center>
+        </div>
+        <div class="col s12 m12 l6 ">
+          <img src="img/mj.jpg" alt="" class="responsive-img"  style="border-radius: 450px;margin-top: 50px; height: 500px; margin-bottom: 10px;">
+        </div>
+      </div>
+    </div>
+      </header>
+  </header>
+   <!-- footer -->
+   <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 >REACH ME</h5>
+          <p>ADDRESS: 13, Igbehinadun yaba, Lagos Nigeria</p>
+          <p>PHONE: 07089185079</p>
+          <p>EMAIL: maryjaneotiezinne@gmail.com</p>
+    </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Connect</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="#">Facebook</a></li>
+          <li><a class="grey-text text-lighten-3" href="#">Twitter</a></li>
+          <li><a class="grey-text text-lighten-3" href="#">Linked In</a></li>
+          <li><a class="grey-text text-lighten-3" href="#">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-copyright white-text text-darken-4">
+      <div class="container center-align">&copy; 2024 Maryjane OT</div>
+    </div>
+  </footer>
+  
+ 
+
+  <script src="materialize/js/jquery.js"></script>
+  <script src="materialize/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+  
+      $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
+      $('.parallax').parallax();
+      $('.tabs').tabs();
+      $('.datepicker').datepicker({
+        disableWeekends: true,
+        yearRange: 1
+      });
+      $('.tooltipped').tooltip();
+      $('.scrollspy').scrollSpy();
+  
+    });
+  </script>
+</body>
+</html>

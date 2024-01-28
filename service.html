@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="nav-wrapper #ff7043 deep-orange lighten-1">
+          <div class="container">
+            <a href="#" class="brand-logo">Maryjane OT</a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="home.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="service.html">Services</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="#" class="tooltipped btn-floating btn-small grey darken-3" data-position="bottom" data-tooltip="Instagram"> 
+                <i class="fab fa-instagram"></i>
+              </a></li>
+              <li><a href="#" class="tooltipped btn-floating btn-small grey darken-3" data-position="bottom" data-tooltip="Facebook">
+                <i class="fab fa-facebook"></i>
+              </a></li>
+              <li><a href="#" class="tooltipped btn-floating btn-small  grey darken-3" data-position="bottom" data-tooltip="linkedin">
+                <i class="fab fa-linkedin"></i>
+              </a></li>
+            </ul>
+            
+            <ul class="sidenav grey lighten-2" id="mobile-menu">
+              <li><a href="home.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="service.html">Services</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        </header>
+        <br><br>
+        <div class="container">
+           <div class="row">
+                <div class="col s12 l6">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="img/sol.jpg" alt="" height="220px">
+                        <a href="#" class="halfway-fab btn-floating #ff7043 deep-orange lighten-1 pulse">
+                          <i class="material-icons">web</i>
+                        </a>
+                      </div>
+                      <div class="card-content grey darken-3 white-text">
+                        <h5 class="title white-text">Web Development</h5>
+                        <P style="text-align: justify;">SPEAR Foundation's Impact on Knowledge Enhancement:
+                          The collaboration with the Spear Foundation has been instrumental in expanding my knowledge in coding and website development. The foundation's commitment to fostering learning environments and providing resources has enabled me to delve deep into the intricacies of technology. </P>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col s12 l6">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="img/adire.png" alt="" height="220px">
+                        <a href="#" class="halfway-fab btn-floating #ff7043 deep-orange lighten-1 pulse">
+                          <i class="material-icons">web</i>
+                        </a>
+                      </div>
+                      <div class="card-content grey darken-3 white-text">
+                        <h5 class="title white-text ">MICROSOFT </h5>
+                        <P style="text-align: justify;">School Support and Educational Enrichment:
+                          The support extended by my school has been a cornerstone in my journey. Through dedicated teachers, access to cutting-edge resources, and structured educational programs, I have been able to explore and master a range of Microsoft applications. These tools have become invaluable to my knowledge</P>
+                      </div>
+                    </div>
+                  </div>
+           </div>
+</div>
+
+  <!-- footer -->
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 >REACH ME</h5>
+          <p>ADDRESS: 13, Igbehinadun yaba, Lagos Nigeria</p>
+          <p>PHONE: 07089185079</p>
+          <p>EMAIL: maryjaneotiezinne@gmail.com</p>
+    </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Connect</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="#">Facebook</a></li>
+          <li><a class="grey-text text-lighten-3" href="#">Twitter</a></li>
+          <li><a class="grey-text text-lighten-3" href="#">Linked In</a></li>
+          <li><a class="grey-text text-lighten-3" href="#">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-copyright white-text text-darken-4">
+      <div class="container center-align">&copy; 2024 Maryjane OT</div>
+    </div>
+  </footer>
+
+  
+  <script src="materialize/js/jquery.js"></script>
+  <script src="materialize/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+  
+      $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
+      $('.parallax').parallax();
+      $('.tabs').tabs();
+      $('.datepicker').datepicker({
+        disableWeekends: true,
+        yearRange: 1
+      });
+      $('.tooltipped').tooltip();
+      $('.scrollspy').scrollSpy();
+  
+    });
+  </script>
+</body>
+</html>
